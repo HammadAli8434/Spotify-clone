@@ -28,7 +28,7 @@ body {
   padding-top: 14px;
   font-weight: bold;
 }
-.heading{
+.heading {
   display: flex;
   gap: 15px;
   width: 100%;
@@ -38,42 +38,41 @@ body {
   align-items: center;
   font-size: 13px;
 }
-.heading img{
+.heading img {
   width: 30px;
 }
-.library{
+.library {
   min-height: 76vh;
   position: relative;
   color: grey;
 }
-.footer{
+.footer {
   display: flex;
   font-size: 10px;
   color: grey;
   gap: 13px;
   position: absolute;
   bottom: 0;
-  
 }
-.footer a{
+.footer a {
   color: grey;
 }
-.right{
+.right {
   margin: 16px 0;
 }
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   background-color: rgb(34, 34, 34);
 }
-.header > *{
+.header > * {
   padding: 20px;
 }
 
-.buttons{
+.buttons {
   margin-right: 8px;
 }
-.login{
+.login {
   padding: 10px;
   border-radius: 35px;
   font-size: 18px;
@@ -81,11 +80,40 @@ body {
   background-color: white;
   width: 7vw;
 }
-.signup{
+.signup {
   background-color: rgb(34, 34, 34);
   color: grey;
   border: none;
   font-size: 16px;
   margin-right: 10px;
   font-weight: bold;
+}
+.spotifyplaylist {
+  padding: 16px;
+}
+.cardcontainer {
+  margin: 30px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card {
+  height: 300px;
+  width: 180px;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #252525;
+}
+.card > * {
+  padding-top: 10px;
+}
+.card img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+div p{
+  color: grey;
+  font-size: 16px;
 }
